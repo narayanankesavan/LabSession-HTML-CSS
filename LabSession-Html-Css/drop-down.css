@@ -1,0 +1,58 @@
+body{
+    background-color: whitesmoke;
+    margin: 0%;
+    height: auto;
+
+}
+header{
+    font-weight: bolder;
+    color: black;
+    background-color: red;
+    font-size: large;
+    text-align: right;
+    padding: 10px;
+}
+
+
+li{                                   
+ display: inline-block;
+}
+.list1{
+    margin: 0%;
+    background-color: peachpuff;
+}
+
+#navigation{
+    position: sticky;
+    top: 0%;
+    z-index: 1px;
+}
+.list1 li{
+    display: inline-block;
+    padding: 10px;
+}
+.list1 li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.list1 li:hover{
+    background-color: grey;
+}
+.dropdown1,.dropdown2{
+    position: absolute;
+    width: auto;
+    max-width: 120px;
+    display: none;
+    top: 42.5px;
+    background-color: whitesmoke;
+    padding: 0%;
+}
+
+
+.list1 li:nth-child(2):hover .dropdown1{
+    display: block;
+}
+.list1 li:nth-child(3):hover .dropdown2{
+    display: block;
+}
